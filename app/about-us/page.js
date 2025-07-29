@@ -7,6 +7,7 @@ export default function AboutUs() {
       {/* Header */}
   
 
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-50 to-gray-100 py-20">
         <div className="container mx-auto px-6 text-center">

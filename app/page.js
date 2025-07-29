@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Floating Navbar */}
+      
 
       {/* Hero Section with Gradient Background */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-blue-50 via-white to-blue-50">
@@ -338,7 +338,7 @@ export default function Home() {
             </p>
           </div>
           <div className="relative">
-            <div className="hidden md:block absolute left-1/2 top-0 h-full w-0.5 bg-gray-200 transform -translate-x-1/2"></div>
+            {/* <div className="hidden md:block absolute left-1/2 top-0 h-full w-0.5 bg-gray-200 transform -translate-x-1/2"></div> */}
             <div className="space-y-12 md:space-y-0">
               {[
                 {
@@ -569,10 +569,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+
     
 
-      {/* Blog Preview Section */}
+      {/* Blog Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
@@ -747,7 +747,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
+    
     </div>
   );
 }
